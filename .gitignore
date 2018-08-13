@@ -1,0 +1,49 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/src/main/webapp-ng/dist
+/src/main/webapp-ng/tmp
+/src/main/webapp-ng/out-tsc
+
+# dependencies
+/src/main/webapp-ng/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+*.sublime-workspace
+.settings
+target
+.mvn
+
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/src/main/webapp-ng/e2e/*.js
+/src/main/webapp-ng/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+/target/
+nb-configuration.xml
+.scannerwork/.sonar_lock
+.scannerwork/report-task.txt
